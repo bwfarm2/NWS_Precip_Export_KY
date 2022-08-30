@@ -158,7 +158,7 @@ while toggle==0:
 toggle=0
 
 while toggle==0:
-    date=input("Please input the ending date in the format YYMMDD, if not input detected today's date will be used ("+str(datetime.datetime.now().strftime("%Y%m%d"))+").\n")
+    date=input("Please input the ending date in the format YYYYMMDD, if not input detected today's date will be used ("+str(datetime.datetime.now().strftime("%Y%m%d"))+").\n")
     print(date)
     if date=="":
         date=datetime.datetime.now().strftime("%Y%m%d")
